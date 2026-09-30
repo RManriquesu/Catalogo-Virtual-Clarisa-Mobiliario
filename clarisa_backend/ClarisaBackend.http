@@ -1,0 +1,6 @@
+@ClarisaBackend_HostAddress = http://localhost:5029
+
+GET {{ClarisaBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,11 @@
+## Build / run artifacts
+bin/
+obj/
+*.user
+
+## Secrets y entorno local (NO subir)
+appsettings.Development.json
+scripts/create_database.sql
+
+## Opcional: si usas git bash / others
+*.log

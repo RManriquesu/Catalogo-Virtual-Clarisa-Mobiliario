@@ -1,0 +1,35 @@
+/* Directivas de Tailwind: base, componentes y utilidades generadas. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos base globales de la aplicación. */
+@layer base {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    overscroll-behavior: none;
+    background-color: #fcf9f3; /* Fondo crema del tema Clarisa */
+    color: #1c1c18;            /* Texto principal casi negro */
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  /* Evita márgenes extra del primer/último hijo dentro del <main> */
+  main > :first-child {
+    margin-top: 0 !important;
+  }
+  main > :last-child {
+    margin-bottom: 0 !important;
+  }
+}
+
+/* Oculta las barras de scroll nativas (la app usa scrollbar invisible). */
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  display: none;
+}
