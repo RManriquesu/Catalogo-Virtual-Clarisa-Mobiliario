@@ -1,0 +1,17 @@
+# --- Frontend ---
+clarisa_fronted/node_modules/
+clarisa_fronted/dist/
+
+# --- Backend ---
+clarisa_backend/bin/
+clarisa_backend/obj/
+clarisa_backend/scripts/create_database.sql
+clarisa_backend/appsettings.Development.json
+
+# --- Generales y variables de entorno ---
+*.env
+*.env.local
+*.log
+.vscode/
+.idea/
+.vs/
